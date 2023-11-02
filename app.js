@@ -8,7 +8,7 @@ app.use(cors());
 
 const PORT = process.env.PORT || 3000;
 
-// Ukraine Alerts API
+// Pantry API
 const apiBase = "https://getpantry.cloud/apiv1/pantry/";
 const locationsEndpoint = "/basket/locations";
 
