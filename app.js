@@ -26,7 +26,7 @@ app.get("/status", (request, response) => {
 });
 
 
-app.put("/", async (request, response) => {
+app.post("/", async (request, response) => {
     console.log("Received locations request");
     try {
         const url = `${apiBase}${request.query["token"]}${locationsEndpoint}`;
